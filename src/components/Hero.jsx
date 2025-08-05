@@ -81,11 +81,12 @@ const Hero = () => {
             <img src="/images/hero-right-leaf.png" alt="right-leaf" className="right-leaf"/>
             <div className='body'>
                 <div className="content">
-                    <div className="space-y-5 hidden md:block"></div>
-                    <p>Cool. Crisp. Classic.</p>
-                    <p className='subtitle'>
-                        Sip the Spirit <br /> of Summer
-                    </p>
+                    <div className="space-y-5 hidden md:block">
+                        <p className='subtitle'>Cool. Crisp. Classic.</p>
+                        <p className='subtitle'>
+                            Sip the Spirit <br /> of Summer
+                        </p>
+                    </div>
                     <div className='view-cocktails'>
                         <p className="subtitle">
                             Every cocktail on our menu is a blend of premium ingredients, 
